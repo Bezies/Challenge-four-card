@@ -1,0 +1,169 @@
+body
+ {
+ 	padding: 0;
+ 	margin: 0;
+ 	font-family: 'Poppins', sans-serif;
+ 	max-width: 1440px;
+ }
+
+ header {
+ 	text-align: center;
+ 	margin: 50px;
+ 	line-height: 1.5em;
+ }
+
+ header h1 {
+ 	color: hsl(234, 12%, 34%);
+ 	font-size: 2em;
+ 	font-weight: 200;
+ }
+
+ header h2 {
+ 	color: hsl(234, 12%, 34%);
+ 	font-weight: 600;
+ 	font-size: 2em;
+ }
+
+ header p {
+ 	color: hsl(229, 6%, 66%);
+ 	font-weight: 200;
+ 	padding: 0 400px;
+
+ }
+
+ .box {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+
+ }
+
+ .supervisor {
+ 	width: 20rem;
+ 	height: 13rem;
+ 	border-top: 5px solid hsl(180, 62%, 55%);
+ 	border-radius: 5px;
+ 	box-shadow: 0 5px 30px hsl(229, 6%, 66%);
+ 	margin: 20px;
+ 	padding: 20px 20px;
+ 	position: absolute;
+ 	left: 120px;
+ 	top: 400px;
+ 	background-image: url(images/icon-supervisor.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: 16rem 10rem;
+
+ 	 }
+
+.supervisor h2 {
+	color: color: hsl(234, 12%, 34%);
+	font-size: 1.2em;
+}
+
+.teambuilder {
+	width: 20rem;
+ 	height: 13rem;
+	border-top: 5px solid hsl(0, 78%, 62%);
+	border-radius: 5px;	
+	box-shadow: 0 5px 30px hsl(229, 6%, 66%);
+ 	margin: 20px;
+ 	padding: 20px 20px;
+ 	background-image: url(images/icon-team-builder.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: 16rem 10rem;
+
+}
+
+.teambuilder h2 {
+	color: color: hsl(234, 12%, 34%);
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+.karma {
+	width: 20rem;
+ 	height: 13rem;
+	border-top: 5px solid hsl(34, 97%, 64%);
+	border-radius: 5px;
+	margin: 20px;
+ 	padding: 20px 20px;
+ 	box-shadow: 0 5px 30px hsl(229, 6%, 66%);
+ 	background-image: url(images/icon-karma.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: 16rem 10rem;
+}
+
+.karma h2 {
+	color: color: hsl(234, 12%, 34%);
+	font-size: 1.2em;
+}
+
+.calculator {
+	width: 20rem;
+ 	height: 13rem;
+	border-top: 5px solid hsl(212, 86%, 64%);
+	border-radius: 5px;
+	margin: 20px;
+ 	padding: 20px 20px;
+ 	box-shadow: 0 5px 30px hsl(229, 6%, 66%);
+ 	position: absolute;
+ 	right: 120px;
+ 	top: 400px;
+ 	background-image: url(images/icon-calculator.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: 16rem 10rem;
+
+}
+
+.calculator h2 {
+	color: color: hsl(234, 12%, 34%);
+	font-size: 1.2em;
+}
+
+.supervisor p, .teambuilder p, .karma p, .calculator p {
+	color: hsl(229, 6%, 66%);
+	font-size: 0.9em;
+}
+
+footer {
+	font-size: 11px; 
+	text-align: center; }
+
+ footer a { 
+ 	color: hsl(228, 45%, 44%); }
+
+@media all and (max-width: 400px) {
+	 
+	 header h1 {
+ 	font-size: 1.2em;
+ }
+
+ header h2 {
+ 	font-size: 1.2em;
+ }
+
+ header p {
+ 	padding: 0 10px;
+ 	font-size: 0.85em;
+ }
+
+ .supervisor {
+ 	position: static;
+ }
+
+ .calculator {
+ 	position: static;
+ }
+
+ .box {
+ 	margin: 10px;
+ }
+
+ .supervisor, .teambuilder, .karma, .calculator {
+ 	width: 18rem;
+ 	background-position: 15rem 9rem;
+ }
+}
+
+
